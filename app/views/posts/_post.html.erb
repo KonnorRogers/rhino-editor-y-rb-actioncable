@@ -1,0 +1,17 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem;">
+    <div>
+      <strong>Tip Tap Body:</strong>
+      <div style="margin-top: 1rem;"><%= post.tip_tap_body %></div>
+    </div>
+    <div>
+      <strong>Trix Body:</strong>
+      <div style="margin-top: 1rem;"><%= post.trix_body %></div>
+    </div>
+  </div>
+</div>

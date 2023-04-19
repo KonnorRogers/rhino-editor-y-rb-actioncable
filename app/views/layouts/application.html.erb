@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TipTapRails</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= vite_client_tag %>
+    <%= vite_stylesheet_tag 'application', "data-turbo-track": "reload" %>
+    <%= vite_javascript_tag 'application', "data-turbo-track": "reload" %>
+    <link href="https://cdn.skypack.dev/prismjs/themes/prism.css" rel="stylesheet" />
+
+    <%= yield :head %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
