@@ -25,4 +25,7 @@ overmind start -f Procfile.dev
 Navigate to: `localhost:5100`
 
 
+## Additional notes
+
+Attachments are currently broken. This is expected.
 
